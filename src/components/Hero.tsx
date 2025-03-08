@@ -37,7 +37,7 @@ const Hero = () => {
                 <ChevronRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="outline" className="border-compugreen text-compuwhite hover:bg-compugreen/10">
+            <Button asChild className="bg-compugreen hover:bg-compugreen/90 text-compublack font-semibold border-compugreen">
               <Link to="/contact">
                 Contact Us
               </Link>
