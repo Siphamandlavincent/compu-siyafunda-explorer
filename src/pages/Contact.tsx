@@ -47,9 +47,14 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="rounded-lg overflow-hidden h-[300px] bg-gray-200">
-                  {/* Placeholder for a map */}
-                  <div className="w-full h-full flex items-center justify-center bg-compugreen/20">
-                    <p className="text-lg font-medium text-compublack">Map of Utrecht, South Africa</p>
+                  <div className="w-full h-full flex flex-col items-center justify-center">
+                    <h3 className="text-lg font-medium text-compublack mb-2">Balele/Enlanzeni Valley Game Park, Utrecht</h3>
+                    <img 
+                      src="/lovable-uploads/ed4a58db-7fa9-4efc-abcf-a9cc8a4cfd85.png" 
+                      alt="Map of Enlanzeni Valley Game Park and Utrecht" 
+                      className="w-full h-auto object-contain"
+                    />
+                    <p className="text-xs text-gray-500 mt-1">Map data ©2025 AfriGIS (Pty) Ltd</p>
                   </div>
                 </div>
               </div>
