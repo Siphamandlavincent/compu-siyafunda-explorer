@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for Compu Siyafunda
+				compugray: '#8E9196',
+				compubg: '#808080',
+				compugreen: '#8CD13F',
+				compuwhite: '#FFFFFF',
+				compublack: '#000000',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
